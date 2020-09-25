@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
         e.preventDefault();
         makeGrid();
     });
-})
+});
 
 function makeGrid() {
     const gridHeight = document.querySelector('#inputHeight').value;
@@ -27,13 +27,13 @@ function makeGrid() {
             let cell = row.insertCell(w);
         };
 
-    }
+    };
     color.addEventListener('click', function (e) {
         canvas.style.backgroundColor = color.value;
-    })
+    });
 
     canvas.addEventListener('click', function (e) {
         e.target.style.backgroundColor = color.value;
-    })
+    });
 
 };
