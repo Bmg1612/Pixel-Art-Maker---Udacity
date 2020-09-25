@@ -36,4 +36,4 @@ function makeGrid() {
         e.target.style.backgroundColor = color.value;
     });
 
-};
+}
